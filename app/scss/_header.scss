@@ -24,7 +24,7 @@
 
     .overlay {
         position: fixed;
-        top: 3.75rem;
+        top: 0;
         bottom: 0px;
         left: 0px;
         right: 0px;
@@ -34,6 +34,8 @@
     }
 
     nav {
+        position: relative;
+        background-color: $white;
         padding-top: 1.0625rem;
         padding-bottom: 1.0625rem;
     }
@@ -115,15 +117,6 @@
         }
     }
 
-    &__cta {
-        font-size: $font-sm;
-        color: $white;
-        transition: opacity 300ms ease-in-out;
-
-        &:hover{
-            opacity: 0.75;
-        }
-    }
 }
 
 
